@@ -8,7 +8,7 @@ long_description = '\n\n'.join([open('README.rst').read(),
 
 setup(
     name='colour',
-    version='0.0.1',
+    version='%%version%%',
     description='converts and manipulates various color representation (HSL, RVB, web, X11, ...)',
     long_description=long_description,
     # Get more strings from http://www.python.org/pypi?%3Aaction=list_classifiers
@@ -24,7 +24,7 @@ setup(
     keywords='color convertion',
     author='Valentin Lab',
     author_email='valentin.lab@kalysto.org',
-    url='http://github.com/vaab/gitchangelog',
+    url='http://github.com/vaab/colour',
     license='GPL License',
     py_modules=['colour'],
     data_files=['rgb.txt'],
