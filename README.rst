@@ -22,6 +22,17 @@ Feature
   - smooth intuitive color scale generation choosing N color gradients.
 
 
+Installation
+============
+
+You can get this code thanks to::
+
+    pip install colour
+
+Or from github repository, do not forget to launch ``./autogen.sh`` before
+issuing a ``python setup.py install`` or ``pip install``.
+
+
 Usage
 =====
 
@@ -102,7 +113,7 @@ We might want to de-saturate this color:
     <Color #bf40bf>
 
 And of course, the string convertion will give the web representation which is
-human, or 3-digit, or 6-digit hex representation depending 
+human, or 3-digit, or 6-digit hex representation depending which is usable::
 
     >>> print "%s" % c
     #bf40bf
